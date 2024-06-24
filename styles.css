@@ -66,6 +66,56 @@ img {
     height: 200px;
 }
 
+.info {
+    display: flex;
+    flex-direction: column;
+    padding: 60px;
+    align-items: center;
+    justify-content: center;
+}
+
+.packs {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.lmao {
+    display: flex;
+    gap: 16px;
+    padding: 8px;
+    text-align: center;
+}
+
+.random {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 12px;
+    gap: 8px;
+    background-color: #e5e7eb;
+    flex: 1 1 0;
+}
+
+.inspire {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.ind {
+    display: flex;
+    justify-content: flex-end;
+    width: 1200px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
 button {
     border-radius: 10px;
     height: 35px;
