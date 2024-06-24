@@ -70,8 +70,11 @@ img {
     display: flex;
     flex-direction: column;
     padding: 60px;
+    margin: 80px;
     align-items: center;
     justify-content: center;
+    flex: 1 1 0;
+    
 }
 
 .packs {
@@ -96,7 +99,8 @@ img {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 12px;
+    padding: 82px;
+    margin: 80px;
     gap: 8px;
     background-color: #e5e7eb;
     flex: 1 1 0;
@@ -114,6 +118,30 @@ img {
     width: 1200px;
     font-weight: 700;
     font-size: 20px;
+}
+
+.lmfao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.action {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 150px;
+    width: 1000px;
+    background-color: #3882f6;
+    flex: 1 1 auto;
+    color: white;
+    border-radius: 10px;
+    margin: 40px;
+}
+
+.text {
+    font-weight: 700;
+    font-size: 24px;
 }
 
 button {
