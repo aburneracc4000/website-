@@ -144,6 +144,18 @@ img {
     font-size: 24px;
 }
 
+.footer {
+    display: flex;
+    background-color: #1f2937;
+    height: 75px;
+    justify-content: center;
+    align-items: center;
+}
+
+.footy {
+    color: #e5e7eb;
+}
+
 button {
     border-radius: 10px;
     height: 35px;
@@ -151,3 +163,8 @@ button {
     background-color: #3882f6;
     color: white;
 }
+
+.action button {
+    border: 2px solid white;
+}
+
